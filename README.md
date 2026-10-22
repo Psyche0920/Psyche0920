@@ -21,17 +21,22 @@ I'm an AI builder based in **Heilbronn, Germany**, combining hands-on software d
 <div align="center">
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="25%">
+<a href="https://github.com/Psyche0920?achievement=quickdraw&tab=achievements"><img src="https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png" width="110" alt="Earned GitHub achievement: Quickdraw" /></a><br/>
+<strong>Quickdraw</strong><br/>
+<sub>Responsive issue resolution</sub>
+</td>
+<td align="center" width="25%">
 <a href="https://github.com/Psyche0920?achievement=pair-extraordinaire&tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="110" alt="Earned GitHub achievement: Pair Extraordinaire" /></a><br/>
 <strong>Pair Extraordinaire</strong><br/>
 <sub>Co-authored contributions</sub>
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 <a href="https://github.com/Psyche0920?achievement=pull-shark&tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="110" alt="Earned GitHub achievement: Pull Shark" /></a><br/>
 <strong>Pull Shark</strong><br/>
 <sub>Merged pull requests</sub>
 </td>
-<td align="center" width="33%">
+<td align="center" width="25%">
 <a href="https://github.com/Psyche0920?achievement=yolo&tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="110" alt="Earned GitHub achievement: YOLO" /></a><br/>
 <strong>YOLO</strong><br/>
 <sub>GitHub contribution milestone</sub>

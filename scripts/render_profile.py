@@ -25,6 +25,7 @@ PURPLE = "#ad95ff"
 LIME = "#c4f17b"
 FONT = "Inter,Segoe UI,Arial,sans-serif"
 MONO = "Consolas,Menlo,monospace"
+ACHIEVEMENTS = ("Quickdraw", "Pair Extraordinaire", "Pull Shark", "YOLO")
 
 
 class ProfileDataError(RuntimeError):
@@ -213,7 +214,7 @@ class ProfileRenderer:
 
     def snapshot_panel(self) -> None:
         s = Svg(1200, 172, "GitHub snapshot: public repositories, yearly contributions, earned achievements and portfolio focus areas")
-        metrics = ((str(len(self.snapshot.repositories)), "PUBLIC REPOSITORIES", CYAN), (str(self.snapshot.contributions), "CONTRIBUTIONS / YEAR", PURPLE), ("03", "EARNED ACHIEVEMENTS", LIME), ("06", "PORTFOLIO FOCUS AREAS", CYAN))
+        metrics = ((str(len(self.snapshot.repositories)), "PUBLIC REPOSITORIES", CYAN), (str(self.snapshot.contributions), "CONTRIBUTIONS / YEAR", PURPLE), (f"{len(ACHIEVEMENTS):02}", "EARNED ACHIEVEMENTS", LIME), ("06", "PORTFOLIO FOCUS AREAS", CYAN))
         for i,(number,label,color) in enumerate(metrics):
             x = 36+i*294
             if i: s.line(x-18, 30, x-18, 119)
@@ -361,7 +362,7 @@ def main() -> None:
     ProfileRenderer(snapshot).run()
     stored={"captured":snapshot.captured,"followers":snapshot.followers,"contributions":snapshot.contributions,"repositories":[{"name":r.name,"language":r.language,"stars":r.stars} for r in snapshot.repositories],"days":[{"date":d.day.isoformat(),"level":d.level} for d in snapshot.days]}
     (ROOT/"data/snapshot.json").write_text(json.dumps(stored,indent=2)+"\n")
-    evidence={"captured":snapshot.captured,"sources":["https://api.github.com/users/Psyche0920","https://api.github.com/users/Psyche0920/repos","https://github.com/users/Psyche0920/contributions"],"public_repositories":len(snapshot.repositories),"yearly_contributions":snapshot.contributions,"followers":snapshot.followers,"radar_unit":"number of linked projects, not a skill score","radar":[{"label":f.label,"projects":list(f.projects),"count":len(f.projects)} for f in FOCUSES],"earned_achievements":["Pair Extraordinaire","Pull Shark","YOLO"]}
+    evidence={"captured":snapshot.captured,"sources":["https://api.github.com/users/Psyche0920","https://api.github.com/users/Psyche0920/repos","https://github.com/users/Psyche0920/contributions"],"public_repositories":len(snapshot.repositories),"yearly_contributions":snapshot.contributions,"followers":snapshot.followers,"radar_unit":"number of linked projects, not a skill score","radar":[{"label":f.label,"projects":list(f.projects),"count":len(f.projects)} for f in FOCUSES],"earned_achievements":list(ACHIEVEMENTS),"achievement_source":"https://github.com/Psyche0920?tab=achievements"}
     (ROOT/"data/evidence.json").write_text(json.dumps(evidence,indent=2)+"\n")
     print(f"Rendered {len(tuple((ROOT/'assets').glob('*.svg')))} profile assets")
 

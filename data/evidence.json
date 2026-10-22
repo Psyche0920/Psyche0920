@@ -6,7 +6,7 @@
     "https://github.com/users/Psyche0920/contributions"
   ],
   "public_repositories": 13,
-  "yearly_contributions": 252,
+  "yearly_contributions": 255,
   "followers": 10,
   "radar_unit": "number of linked projects, not a skill score",
   "radar": [
@@ -69,8 +69,10 @@
     }
   ],
   "earned_achievements": [
+    "Quickdraw",
     "Pair Extraordinaire",
     "Pull Shark",
     "YOLO"
-  ]
+  ],
+  "achievement_source": "https://github.com/Psyche0920?tab=achievements"
 }

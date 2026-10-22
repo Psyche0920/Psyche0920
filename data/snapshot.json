@@ -1,25 +1,20 @@
 {
   "captured": "2026-10-22",
   "followers": 10,
-  "contributions": 252,
+  "contributions": 255,
   "repositories": [
     {
-      "name": "Psyche0920",
+      "name": "born2beroot",
       "language": null,
       "stars": 0
     },
     {
-      "name": "GoalCoach",
-      "language": "Python",
-      "stars": 2
-    },
-    {
-      "name": "RAG-against-the-machine",
-      "language": "Python",
+      "name": "c_codexion",
+      "language": "C",
       "stars": 0
     },
     {
-      "name": "push_swap",
+      "name": "ft_printf",
       "language": "C",
       "stars": 0
     },
@@ -29,14 +24,9 @@
       "stars": 0
     },
     {
-      "name": "python_amazing",
+      "name": "GoalCoach",
       "language": "Python",
-      "stars": 0
-    },
-    {
-      "name": "Python-fly_in",
-      "language": "Python",
-      "stars": 0
+      "stars": 2
     },
     {
       "name": "libft",
@@ -44,12 +34,12 @@
       "stars": 0
     },
     {
-      "name": "Python_callmemaybe",
+      "name": "Psyche0920",
       "language": "Python",
       "stars": 0
     },
     {
-      "name": "c_codexion",
+      "name": "push_swap",
       "language": "C",
       "stars": 0
     },
@@ -59,13 +49,23 @@
       "stars": 0
     },
     {
-      "name": "ft_printf",
-      "language": "C",
+      "name": "Python-fly_in",
+      "language": "Python",
       "stars": 0
     },
     {
-      "name": "born2beroot",
-      "language": null,
+      "name": "python_amazing",
+      "language": "Python",
+      "stars": 0
+    },
+    {
+      "name": "Python_callmemaybe",
+      "language": "Python",
+      "stars": 0
+    },
+    {
+      "name": "RAG-against-the-machine",
+      "language": "Python",
       "stars": 0
     }
   ],
@@ -1128,7 +1128,7 @@
     },
     {
       "date": "2026-10-22",
-      "level": 1
+      "level": 2
     },
     {
       "date": "2025-10-24",

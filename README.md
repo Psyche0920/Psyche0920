@@ -1,3 +1,16 @@
+<!-- repository-badges:start -->
+<div align="center">
+
+[![Contributors](https://img.shields.io/github/contributors/Psyche0920/Psyche0920?style=for-the-badge)](https://github.com/Psyche0920/Psyche0920/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/Psyche0920/Psyche0920?style=for-the-badge)](https://github.com/Psyche0920/Psyche0920/forks)
+[![Stars](https://img.shields.io/github/stars/Psyche0920/Psyche0920?style=for-the-badge)](https://github.com/Psyche0920/Psyche0920/stargazers)
+[![Issues](https://img.shields.io/github/issues/Psyche0920/Psyche0920?style=for-the-badge)](https://github.com/Psyche0920/Psyche0920/issues)
+[![License](https://img.shields.io/badge/license-not_specified-lightgrey?style=for-the-badge)](https://github.com/Psyche0920/Psyche0920)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Weijia_Han-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/weijia-han-6162581b5/)
+
+</div>
+<!-- repository-badges:end -->
+
 <div align="center">
 
 <img src="assets/hero-f2ee30849a.svg" width="100%" alt="Weijia Han — Applied AI and agentic systems, product thinking and working software" />

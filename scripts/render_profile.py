@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import math
 import re
@@ -185,9 +186,14 @@ class ProfileRenderer:
         self.snapshot = snapshot
         self.assets = ROOT / "assets"
         self.assets.mkdir(exist_ok=True)
+        self.files: dict[str, str] = {}
 
     def save(self, name: str, canvas: Svg) -> None:
-        (self.assets / f"{name}.svg").write_text(canvas.render(), encoding="utf-8")
+        content = canvas.render()
+        digest = hashlib.sha256(content.encode("utf-8")).hexdigest()[:10]
+        filename = f"{name}-{digest}.svg"
+        self.files[name] = filename
+        (self.assets / filename).write_text(content, encoding="utf-8")
 
     def hero(self) -> None:
         s = Svg(1200, 390, "Weijia Han | Applied AI and agentic systems | Heilbronn, Germany")
@@ -341,6 +347,16 @@ class ProfileRenderer:
         self.button("email","hanweijia.ann@outlook.com",CYAN,330)
         self.button("linkedin","LinkedIn ↗",PURPLE,165)
         self.button("goalcoach-link","GoalCoach ↗",LIME,175)
+        readme_path = ROOT / "README.md"
+        if readme_path.exists():
+            readme = readme_path.read_text(encoding="utf-8")
+            for name, filename in self.files.items():
+                readme = re.sub(rf'src="assets/{re.escape(name)}(?:-[0-9a-f]{{10}})?\.svg"', f'src="assets/{filename}"', readme)
+            readme_path.write_text(readme, encoding="utf-8")
+        for path in self.assets.glob("*.svg"):
+            managed = any(re.fullmatch(rf"{re.escape(name)}(?:-[0-9a-f]{{10}})?\.svg", path.name) for name in self.files)
+            if managed and path.name not in self.files.values():
+                path.unlink()
 
 
 def main() -> None:

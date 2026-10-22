@@ -29,6 +29,8 @@ python scripts/render_profile.py --refresh  # fetch current public data and rege
 
 Review and commit regenerated assets and data after a refresh. No scheduled workflow or account secret is installed. A failed source request raises `ProfileDataError` before replacing the previous assets. CSS animation respects reduced-motion preferences and retains a readable static state.
 
+Generated image filenames include a content hash, and the renderer updates README image references. This avoids GitHub showing a cached old chart after new statistics are published. The renderer removes only obsolete files matching its own generated image names.
+
 See [data/evidence.json](data/evidence.json) for source URLs and radar mappings, and [data/snapshot.json](data/snapshot.json) for the public snapshot used by the renderer.
 
 ## Achievement visibility

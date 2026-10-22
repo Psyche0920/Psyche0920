@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Weijia Han — Applied AI and agentic systems, product thinking and working software" />
+<img src="assets/hero-f2ee30849a.svg" width="100%" alt="Weijia Han — Applied AI and agentic systems, product thinking and working software" />
 
 <p>
-  <a href="mailto:hanweijia.ann@outlook.com"><img src="assets/email.svg" height="40" alt="Email hanweijia.ann@outlook.com" /></a>
-  <a href="https://www.linkedin.com/in/weijia-han-6162581b5/"><img src="assets/linkedin.svg" height="40" alt="LinkedIn profile" /></a>
-  <a href="https://goalcoach.ai.studio/"><img src="assets/goalcoach-link.svg" height="40" alt="Visit the GoalCoach website and demo entry" /></a>
+  <a href="mailto:hanweijia.ann@outlook.com"><img src="assets/email-95efa4c702.svg" height="40" alt="Email hanweijia.ann@outlook.com" /></a>
+  <a href="https://www.linkedin.com/in/weijia-han-6162581b5/"><img src="assets/linkedin-0fe6af507d.svg" height="40" alt="LinkedIn profile" /></a>
+  <a href="https://goalcoach.ai.studio/"><img src="assets/goalcoach-link-85e673388a.svg" height="40" alt="Visit the GoalCoach website and demo entry" /></a>
 </p>
 
 **[Projects](#selected-builds) · [Radar & languages](#engineering-footprint) · [Achievements](#achievement-showcase) · [Background](#the-person-behind-the-code)**
@@ -14,7 +14,7 @@
 
 I'm an AI builder based in **Heilbronn, Germany**, combining hands-on software development with international product and project delivery experience at **Huawei, BIGO, and UNOV/UNODC**. I build adaptive learning tools, RAG pipelines, structured tool-calling systems, and interactive experiences, with attention to typed interfaces, persistent state, and evaluation.
 
-<img src="assets/snapshot.svg" width="100%" alt="Public GitHub snapshot: repository count, yearly contributions, earned achievement types, and portfolio focus areas. Snapshot date is shown on the card." />
+<img src="assets/snapshot-d50b2366cb.svg" width="100%" alt="Public GitHub snapshot: repository count, yearly contributions, earned achievement types, and portfolio focus areas. Snapshot date is shown on the card." />
 
 ## Achievement showcase
 
@@ -50,7 +50,7 @@ I'm an AI builder based in **Heilbronn, Germany**, combining hands-on software d
 
 ## Engineering footprint
 
-<img src="assets/radar-languages.svg" width="100%" alt="Six-axis portfolio radar showing the number of evidenced projects in each focus area, beside a chart of public repositories by primary language" />
+<img src="assets/radar-languages-add83ec636.svg" width="100%" alt="Six-axis portfolio radar showing the number of evidenced projects in each focus area, beside a chart of public repositories by primary language" />
 
 <details>
 <summary><strong>How to read the radar and language chart</strong></summary>
@@ -75,31 +75,31 @@ The language chart counts each public source repository once using GitHub's prim
 <table>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Psyche0920/GoalCoach"><img src="assets/project-goalcoach.svg" width="100%" alt="GoalCoach: adaptive learning; team lead and developer; Python, PydanticAI, FastAPI, SQLite; MVP demonstrated" /></a>
+<a href="https://github.com/Psyche0920/GoalCoach"><img src="assets/project-goalcoach-952bca9e06.svg" width="100%" alt="GoalCoach: adaptive learning; team lead and developer; Python, PydanticAI, FastAPI, SQLite; MVP demonstrated" /></a>
 <p align="center"><a href="https://goalcoach.ai.studio/"><strong>Website & demo entry ↗</strong></a> · <a href="https://github.com/Psyche0920/GoalCoach">Source</a> · <a href="https://github.com/Psyche0920/GoalCoach/tree/JEV">JEV experiments</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Psyche0920/RAG-against-the-machine"><img src="assets/project-rag.svg" width="100%" alt="RAG against the Machine: codebase question answering, BM25 retrieval, local Qwen, evaluation" /></a>
+<a href="https://github.com/Psyche0920/RAG-against-the-machine"><img src="assets/project-rag-945251740d.svg" width="100%" alt="RAG against the Machine: codebase question answering, BM25 retrieval, local Qwen, evaluation" /></a>
 <p align="center"><a href="https://github.com/Psyche0920/RAG-against-the-machine"><strong>Source & evaluation ↗</strong></a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Psyche0920/Python_callmemaybe"><img src="assets/project-tools.svg" width="100%" alt="Call Me Maybe: constrained decoding, schema-aware arguments, validated function calls" /></a>
+<a href="https://github.com/Psyche0920/Python_callmemaybe"><img src="assets/project-tools-18ce3ad21a.svg" width="100%" alt="Call Me Maybe: constrained decoding, schema-aware arguments, validated function calls" /></a>
 <p align="center"><a href="https://github.com/Psyche0920/Python_callmemaybe"><strong>Source ↗</strong></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Psyche0920/PastPort"><img src="assets/project-pastport.svg" width="100%" alt="PastPort: heritage narrative platform; framework and team lead; in development; private source" /></a>
+<a href="https://github.com/Psyche0920/PastPort"><img src="assets/project-pastport-edb3541f59.svg" width="100%" alt="PastPort: heritage narrative platform; framework and team lead; in development; private source" /></a>
 <p align="center"><a href="https://github.com/Psyche0920/PastPort"><strong>Project (private) ↗</strong></a> · <a href="https://github.com/Psyche0920/PastPort-VR-Studio">VR Studio (private)</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Psyche0920/Neckarus"><img src="assets/project-neckarus.svg" width="100%" alt="Neckarus: environmental data, nearby facilities and voice interaction; prototype; private source" /></a>
+<a href="https://github.com/Psyche0920/Neckarus"><img src="assets/project-neckarus-44eed71616.svg" width="100%" alt="Neckarus: environmental data, nearby facilities and voice interaction; prototype; private source" /></a>
 <p align="center"><a href="https://github.com/Psyche0920/Neckarus"><strong>Project (private) ↗</strong></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/kapustazh/pacman"><img src="assets/project-pacman.svg" width="100%" alt="Pac-Man: collaborative modular Python game, procedural mazes and ghost behaviour; playable release" /></a>
+<a href="https://github.com/kapustazh/pacman"><img src="assets/project-pacman-7e8206be39.svg" width="100%" alt="Pac-Man: collaborative modular Python game, procedural mazes and ghost behaviour; playable release" /></a>
 <p align="center"><a href="https://kapustazh.itch.io/pac-man"><strong>Game page ↗</strong></a> · <a href="https://github.com/kapustazh/pacman">Team source</a></p>
 </td>
 </tr>
@@ -171,7 +171,7 @@ A Pygame recreation featuring procedural mazes, player controls, ghost behaviour
 
 ## Activity, in another dimension
 
-<img src="assets/activity.svg" width="100%" alt="Isometric contribution skyline rendered from GitHub's public daily contribution intensity; date range and snapshot date are shown on the graphic" />
+<img src="assets/activity-ed8a2ad279.svg" width="100%" alt="Isometric contribution skyline rendered from GitHub's public daily contribution intensity; date range and snapshot date are shown on the graphic" />
 
 <sub>Charts are dated snapshots rendered from public GitHub data. The native contribution calendar below the README reflects GitHub's latest account state.</sub>
 
@@ -190,7 +190,7 @@ Private repository links require access; their inclusion does not grant source a
 
 ## The person behind the code
 
-<img src="assets/journey.svg" width="100%" alt="Career journey from UNOV/UNODC, BIGO and Huawei to 42 Heilbronn, TUM and LEVEL3 AI Engineering" />
+<img src="assets/journey-8cde2f148b.svg" width="100%" alt="Career journey from UNOV/UNODC, BIGO and Huawei to 42 Heilbronn, TUM and LEVEL3 AI Engineering" />
 
 <details>
 <summary><strong>Education, international experience & languages</strong></summary>
@@ -210,7 +210,7 @@ Private repository links require access; their inclusion does not grant source a
 
 </details>
 
-<img src="assets/stack.svg" width="100%" alt="Toolkit: Python, C, FastAPI, PydanticAI, LangGraph, SQLite, Git, Linux, pytest and Jira" />
+<img src="assets/stack-023f673024.svg" width="100%" alt="Toolkit: Python, C, FastAPI, PydanticAI, LangGraph, SQLite, Git, Linux, pytest and Jira" />
 
 | Focus | Experience |
 | :--- | :--- |

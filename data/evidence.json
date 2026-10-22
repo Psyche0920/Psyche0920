@@ -1,0 +1,76 @@
+{
+  "captured": "2026-10-22",
+  "sources": [
+    "https://api.github.com/users/Psyche0920",
+    "https://api.github.com/users/Psyche0920/repos",
+    "https://github.com/users/Psyche0920/contributions"
+  ],
+  "public_repositories": 13,
+  "yearly_contributions": 252,
+  "followers": 10,
+  "radar_unit": "number of linked projects, not a skill score",
+  "radar": [
+    {
+      "label": "Agentic AI",
+      "projects": [
+        "GoalCoach",
+        "Neckarus",
+        "PastPort"
+      ],
+      "count": 3
+    },
+    {
+      "label": "Backend & state",
+      "projects": [
+        "GoalCoach",
+        "Neckarus",
+        "PastPort"
+      ],
+      "count": 3
+    },
+    {
+      "label": "RAG & tool calling",
+      "projects": [
+        "RAG-against-the-machine",
+        "Python_callmemaybe"
+      ],
+      "count": 2
+    },
+    {
+      "label": "Algorithms & games",
+      "projects": [
+        "push_swap",
+        "python_amazing",
+        "Python-fly_in",
+        "pacman"
+      ],
+      "count": 4
+    },
+    {
+      "label": "Systems & C",
+      "projects": [
+        "libft",
+        "ft_printf",
+        "get_next_line",
+        "c_codexion",
+        "born2beroot",
+        "Inception"
+      ],
+      "count": 6
+    },
+    {
+      "label": "Product delivery",
+      "projects": [
+        "GoalCoach",
+        "PastPort",
+        "Neckarus"
+      ],
+      "count": 3
+    }
+  ],
+  "earned_achievements": [
+    "Pair Extraordinaire",
+    "Pull Shark",
+    "YOLO"
+  ]
+}

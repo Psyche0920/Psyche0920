@@ -1,32 +1,107 @@
 <div align="center">
 
-# Weijia Han
-### Applied AI & Agentic Systems · Product & Project Management
+<img src="assets/hero.svg" width="100%" alt="Weijia Han — Applied AI and agentic systems, product thinking and working software" />
 
-Building useful AI products, from the first problem statement to working software.
+<p>
+  <a href="mailto:hanweijia.ann@outlook.com"><img src="assets/email.svg" height="40" alt="Email hanweijia.ann@outlook.com" /></a>
+  <a href="https://www.linkedin.com/in/weijia-han-6162581b5/"><img src="assets/linkedin.svg" height="40" alt="LinkedIn profile" /></a>
+  <a href="https://goalcoach.ai.studio/"><img src="assets/goalcoach-link.svg" height="40" alt="Visit the GoalCoach website and demo entry" /></a>
+</p>
 
-[WM Labs](https://wm-labs.tech/) · [GoalCoach Website](https://goalcoach.ai.studio/) · [LinkedIn](https://www.linkedin.com/in/weijia-han-6162581b5/) · [Email](mailto:hanweijia.ann@outlook.com)
+**[Projects](#selected-builds) · [Radar & languages](#engineering-footprint) · [Achievements](#achievement-showcase) · [Background](#the-person-behind-the-code)**
 
 </div>
 
----
+I'm an AI builder based in **Heilbronn, Germany**, combining hands-on software development with international product and project delivery experience at **Huawei, BIGO, and UNOV/UNODC**. I build adaptive learning tools, RAG pipelines, structured tool-calling systems, and interactive experiences, with attention to typed interfaces, persistent state, and evaluation.
 
-I'm an AI builder based in Heilbronn, Germany, combining hands-on software development with international experience in product and project delivery at **Huawei, BIGO, and UNOV/UNODC**.
+<img src="assets/snapshot.svg" width="100%" alt="Public GitHub snapshot: repository count, yearly contributions, earned achievement types, and portfolio focus areas. Snapshot date is shown on the card." />
 
-My projects explore adaptive learning, retrieval-augmented generation, structured tool calling, location-aware assistants, and interactive heritage experiences. I use AI-assisted development to turn ideas into working prototypes, with particular attention to explicit state, typed interfaces, and evaluation.
+## Achievement showcase
 
-- **42 Heilbronn:** Software Engineering & Applied AI, Rank 5.
-- **Technical University of Munich:** B.Sc. Management and Data Science, currently on a semester of leave.
-- **LEVEL3 AI Engineering:** Completed the team programme and led the GoalCoach MVP development and demonstration.
-- **Background:** M.A. Interpreting and B.A. Translation, bringing a multilingual, user-focused perspective to technical work.
+<div align="center">
+<table>
+<tr>
+<td align="center" width="33%">
+<a href="https://github.com/Psyche0920?achievement=pair-extraordinaire&tab=achievements"><img src="https://github.githubassets.com/assets/pair-extraordinaire-default-579438a20e01.png" width="110" alt="Earned GitHub achievement: Pair Extraordinaire" /></a><br/>
+<strong>Pair Extraordinaire</strong><br/>
+<sub>Co-authored contributions</sub>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/Psyche0920?achievement=pull-shark&tab=achievements"><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" width="110" alt="Earned GitHub achievement: Pull Shark" /></a><br/>
+<strong>Pull Shark</strong><br/>
+<sub>Merged pull requests</sub>
+</td>
+<td align="center" width="33%">
+<a href="https://github.com/Psyche0920?achievement=yolo&tab=achievements"><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" width="110" alt="Earned GitHub achievement: YOLO" /></a><br/>
+<strong>YOLO</strong><br/>
+<sub>GitHub contribution milestone</sub>
+</td>
+</tr>
+</table>
 
-## Featured projects
+<sub>Actual earned GitHub achievements, linked to the account record. GitHub Pro is also shown in the profile sidebar.</sub>
 
-### WM Labs | Company website
+</div>
 
-The website for our company, bringing our work and projects together.
+## Engineering footprint
 
-[Visit WM Labs](https://wm-labs.tech/)
+<img src="assets/radar-languages.svg" width="100%" alt="Six-axis portfolio radar showing the number of evidenced projects in each focus area, beside a chart of public repositories by primary language" />
+
+<details>
+<summary><strong>How to read the radar and language chart</strong></summary>
+
+The radar measures **the number of linked projects that demonstrate a focus area**, on a 0–8 scale. Projects may appear in multiple areas. It is a portfolio map, not a proficiency score, ranking, or certification.
+
+| Focus area | Project evidence |
+| :--- | :--- |
+| Agentic AI | GoalCoach, Neckarus, PastPort |
+| Backend & state | GoalCoach, Neckarus, PastPort |
+| RAG & tool calling | RAG against the Machine, Call Me Maybe |
+| Algorithms & games | push_swap, A-Maze-ing, Fly.in, team Pac-Man |
+| Systems & C | libft, ft_printf, get_next_line, Codexion, Born2beroot, Inception |
+| Product delivery | GoalCoach, PastPort, Neckarus |
+
+The language chart counts each public source repository once using GitHub's primary-language field. It excludes repositories without a detected language and the profile repository itself; it does not measure code volume or professional mastery. Source dates and mappings are recorded in [the evidence file](data/evidence.json).
+
+</details>
+
+## Selected builds
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Psyche0920/GoalCoach"><img src="assets/project-goalcoach.svg" width="100%" alt="GoalCoach: adaptive learning; team lead and developer; Python, PydanticAI, FastAPI, SQLite; MVP demonstrated" /></a>
+<p align="center"><a href="https://goalcoach.ai.studio/"><strong>Website & demo entry ↗</strong></a> · <a href="https://github.com/Psyche0920/GoalCoach">Source</a> · <a href="https://github.com/Psyche0920/GoalCoach/tree/JEV">JEV experiments</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Psyche0920/RAG-against-the-machine"><img src="assets/project-rag.svg" width="100%" alt="RAG against the Machine: codebase question answering, BM25 retrieval, local Qwen, evaluation" /></a>
+<p align="center"><a href="https://github.com/Psyche0920/RAG-against-the-machine"><strong>Source & evaluation ↗</strong></a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Psyche0920/Python_callmemaybe"><img src="assets/project-tools.svg" width="100%" alt="Call Me Maybe: constrained decoding, schema-aware arguments, validated function calls" /></a>
+<p align="center"><a href="https://github.com/Psyche0920/Python_callmemaybe"><strong>Source ↗</strong></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Psyche0920/PastPort"><img src="assets/project-pastport.svg" width="100%" alt="PastPort: heritage narrative platform; framework and team lead; in development; private source" /></a>
+<p align="center"><a href="https://github.com/Psyche0920/PastPort"><strong>Project (private) ↗</strong></a> · <a href="https://github.com/Psyche0920/PastPort-VR-Studio">VR Studio (private)</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Psyche0920/Neckarus"><img src="assets/project-neckarus.svg" width="100%" alt="Neckarus: environmental data, nearby facilities and voice interaction; prototype; private source" /></a>
+<p align="center"><a href="https://github.com/Psyche0920/Neckarus"><strong>Project (private) ↗</strong></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/kapustazh/pacman"><img src="assets/project-pacman.svg" width="100%" alt="Pac-Man: collaborative modular Python game, procedural mazes and ghost behaviour; playable release" /></a>
+<p align="center"><a href="https://kapustazh.itch.io/pac-man"><strong>Game page ↗</strong></a> · <a href="https://github.com/kapustazh/pacman">Team source</a></p>
+</td>
+</tr>
+</table>
+
+<details>
+<summary><strong>Project details, responsibilities & current status</strong></summary>
 
 ### GoalCoach | Adaptive AI learning coach
 
@@ -41,8 +116,6 @@ An adaptive Chinese-learning coach that turns learner goals into study plans and
 **Stack:** Python · PydanticAI · FastAPI · LLM APIs · SQLite  
 **Status:** MVP demonstrated; JEV experimentation ongoing.
 
-[Website & demo entry](https://goalcoach.ai.studio/) · [Source](https://github.com/Psyche0920/GoalCoach) · [JEV experiments](https://github.com/Psyche0920/GoalCoach/tree/JEV) · [Frontend prototype](https://github.com/Psyche0920/GoalCoach-Mockup)
-
 ### RAG against the Machine | Codebase question answering
 
 A retrieval-augmented generation pipeline over the vLLM codebase and documentation, connecting code-aware chunking, BM25 retrieval, local Qwen generation, and retrieval evaluation.
@@ -50,16 +123,12 @@ A retrieval-augmented generation pipeline over the vLLM codebase and documentati
 **Focus:** Grounded answers, structured outputs, and measurable retrieval quality.  
 **Stack:** Python · AST-based chunking · BM25 · Qwen · Pydantic
 
-[Source & evaluation workflow](https://github.com/Psyche0920/RAG-against-the-machine)
-
 ### Call Me Maybe | LLM function calling
 
 Converts natural-language requests into structured JSON function calls using logits-based function selection, schema-aware parameter extraction, constrained decoding, and JSON/Pydantic validation.
 
 **Focus:** Connecting model output to explicit, validated function contracts.  
 **Stack:** Python · LLM inference · Constrained decoding · Pydantic
-
-[Source](https://github.com/Psyche0920/Python_callmemaybe)
 
 ### PastPort | Interactive heritage experiences
 
@@ -74,8 +143,6 @@ An in-development platform for turning traceable heritage research into interact
 **Stack:** Python · LangGraph · FastAPI · JavaScript · Typed contracts · Panoramic media  
 **Status:** Workflow framework implemented; museum, gameplay plugin, and connected-tour integration in development. Source repositories are private.
 
-[Project repository (private)](https://github.com/Psyche0920/PastPort) · [VR Studio (private)](https://github.com/Psyche0920/PastPort-VR-Studio)
-
 ### Neckarus | Location-aware city & voice assistant
 
 **Product Architecture & Workflow Lead · My Moment Developer · Green City Hackathon, Heilbronn**
@@ -89,62 +156,74 @@ A team project combining environmental data, nearby facilities, and voice intera
 **Stack:** Python · FastAPI · PydanticAI · Azure Speech · Geolocation · Open data  
 **Status:** My Moment backend and validation prototype implemented; full MVP integration and physical-device voice validation ongoing. Source is private.
 
-[Project repository (private)](https://github.com/Psyche0920/Neckarus)
+### Pac-Man | Collaborative Python game
 
-## More software projects
+A Pygame recreation featuring procedural mazes, player controls, ghost behaviour, collision handling, scoring, and persistent high scores, organised into reusable game-state, entity, maze, and configuration modules.
 
-### Python, algorithms & games
-
-| Project | What it explores | Links |
-| :--- | :--- | :--- |
-| **Pac-Man** | Collaborative Pygame recreation with procedural mazes, ghost behaviour, collision handling, scoring, and persistent high scores. | [Team source](https://github.com/kapustazh/pacman) · [Game page](https://kapustazh.itch.io/pac-man) · [Earlier draft (private)](https://github.com/Psyche0920/pac_man-draft) |
-| **Fly.in** | Drone routing and turn-based simulation with graph algorithms, Dijkstra replanning, and capacity constraints. | [Source](https://github.com/Psyche0920/Python-fly_in) |
-| **A-Maze-ing** | Maze generation with DFS, shortest-path solving with BFS, and an interactive terminal interface. | [Source](https://github.com/Psyche0920/python_amazing) |
-| **Python Piscine** | Python foundations, object-oriented programming, collections, file handling, and error handling. | [Exercises](https://github.com/Psyche0920/python) |
-
-### C, concurrency & systems foundations
-
-| Project | What it explores | Links |
-| :--- | :--- | :--- |
-| **Codexion** | POSIX threads, mutexes, condition variables, priority queues, and FIFO/EDF scheduling. | [Source](https://github.com/Psyche0920/c_codexion) |
-| **push_swap** | Sorting with two stacks and a constrained instruction set. | [Source](https://github.com/Psyche0920/push_swap) |
-| **libft** | Reimplementing C library functions and managing memory and strings. | [Source](https://github.com/Psyche0920/libft) |
-| **ft_printf** | Formatted output, variadic arguments, and low-level I/O. | [Source](https://github.com/Psyche0920/ft_printf) |
-| **get_next_line** | Reading file descriptors line by line with persistent buffers. | [Source](https://github.com/Psyche0920/get_next_line) |
-| **Born2beroot** | 42 systems administration project. | [Repository](https://github.com/Psyche0920/born2beroot) |
-| **Inception** | Docker-based service infrastructure project. | [Repository (private)](https://github.com/Psyche0920/Inception) |
-
-<details>
-<summary>Additional learning archive</summary>
-
-[Python exam practice (private)](https://github.com/Psyche0920/Python_Exams)
+**Status:** Completed; team repository and game release linked above.
 
 </details>
 
+## Activity, in another dimension
+
+<img src="assets/activity.svg" width="100%" alt="Isometric contribution skyline rendered from GitHub's public daily contribution intensity; date range and snapshot date are shown on the graphic" />
+
+<sub>Charts are dated snapshots rendered from public GitHub data. The native contribution calendar below the README reflects GitHub's latest account state.</sub>
+
+## Systems foundations & experiments
+
+| Area | Projects |
+| :--- | :--- |
+| **Concurrency** | [Codexion](https://github.com/Psyche0920/c_codexion) — POSIX threads, mutexes, condition variables, FIFO/EDF scheduling |
+| **Graphs & simulation** | [Fly.in](https://github.com/Psyche0920/Python-fly_in) — Dijkstra routing and capacity constraints · [A-Maze-ing](https://github.com/Psyche0920/python_amazing) — DFS generation and BFS solving |
+| **Algorithms** | [push_swap](https://github.com/Psyche0920/push_swap) — two stacks and constrained operations |
+| **C foundations** | [libft](https://github.com/Psyche0920/libft) · [ft_printf](https://github.com/Psyche0920/ft_printf) · [get_next_line](https://github.com/Psyche0920/get_next_line) |
+| **Systems administration** | [Born2beroot](https://github.com/Psyche0920/born2beroot) · [Inception (private)](https://github.com/Psyche0920/Inception) — Docker-based service infrastructure |
+| **Python foundations** | [Python Piscine](https://github.com/Psyche0920/python) · [Exam practice (private)](https://github.com/Psyche0920/Python_Exams) |
+
 Private repository links require access; their inclusion does not grant source access.
 
-## Skills & working style
+## The person behind the code
 
-| Area | Experience |
-| :--- | :--- |
-| **Applied AI** | PydanticAI, LangGraph, LLM integration, RAG, tool calling, structured outputs, prompt design, state-driven workflows |
-| **Software development** | Python, C, Git, Linux, Bash, pytest; project experience with FastAPI, Pydantic, and SQLite; foundational SQL |
-| **Product & delivery** | Problem discovery, requirements analysis, PRDs, product architecture, MVP scoping, team leadership, stakeholder coordination, Jira |
-| **Languages** | Chinese (native), English (C2), German (B2), French (A2) |
+<img src="assets/journey.svg" width="100%" alt="Career journey from UNOV/UNODC, BIGO and Huawei to 42 Heilbronn, TUM and LEVEL3 AI Engineering" />
 
-My work connects product decisions with implementation: define the user problem, make system boundaries explicit, build an MVP, and document what has been demonstrated and what still needs validation.
+<details>
+<summary><strong>Education, international experience & languages</strong></summary>
 
-## Before software engineering
+- **42 Heilbronn:** Software Engineering & Applied AI, Rank 5.
+- **Technical University of Munich:** B.Sc. Management and Data Science, currently on a semester of leave.
+- **LEVEL3 AI Engineering:** Completed the team programme and led the GoalCoach MVP development and demonstration.
+- **Background:** M.A. Interpreting and B.A. Translation.
+
+**Before software engineering**
 
 - **Huawei Digital Power:** Translated training requirements into a digital platform and delivered 30+ learning modules.
 - **BIGO LIVE:** Built and led a 200+ member content-safety team across 20+ countries, coordinating feedback between operations and engineering.
 - **UNOV/UNODC:** Worked on multilingual policy tools, localization, content QA, expert data, and inter-agency communication.
 
-## Let's connect
+**Languages:** Chinese (native) · English (C2) · German (B2) · French (A2)
 
-Interested in applied AI, backend development, and building practical products with a collaborative team.
+</details>
 
-[LinkedIn](https://www.linkedin.com/in/weijia-han-6162581b5/) · [hanweijia.ann@outlook.com](mailto:hanweijia.ann@outlook.com)
+<img src="assets/stack.svg" width="100%" alt="Toolkit: Python, C, FastAPI, PydanticAI, LangGraph, SQLite, Git, Linux, pytest and Jira" />
 
-<sub>Project status reflects the work described here as of October 2026. Team projects identify my role; prototypes and work in progress are labelled explicitly.</sub>
+| Focus | Experience |
+| :--- | :--- |
+| **Applied AI** | PydanticAI, LangGraph, LLM integration, RAG, tool calling, structured outputs, prompt design, state-driven workflows |
+| **Development** | Python, C, Git, Linux, Bash, pytest; project experience with FastAPI, Pydantic, and SQLite; foundational SQL |
+| **Product & delivery** | Problem discovery, requirements analysis, PRDs, product architecture, MVP scoping, team leadership, stakeholder coordination, Jira |
+
+My work connects product decisions with implementation: define the user problem, make system boundaries explicit, build an MVP, and document what has been demonstrated and what still needs validation.
+
+---
+
+<div align="center">
+
+**Let's build something useful.**
+
+[hanweijia.ann@outlook.com](mailto:hanweijia.ann@outlook.com) · [LinkedIn](https://www.linkedin.com/in/weijia-han-6162581b5/) · [GoalCoach](https://goalcoach.ai.studio/)
+
+<sub>Original SVG artwork · Layout inspired by [DenverCoder1](https://github.com/DenverCoder1) · [Design & data notes](DESIGN.md)</sub>
+
+</div>
 

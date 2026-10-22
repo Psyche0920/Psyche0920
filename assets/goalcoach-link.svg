@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="175" height="48" viewBox="0 0 175 48" role="img" aria-labelledby="title">
+<title id="title">GoalCoach ↗</title>
+<defs>
+<linearGradient id="border"><stop stop-color="#63e8ed"/><stop offset=".5" stop-color="#ad95ff"/><stop offset="1" stop-color="#c4f17b"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#524389" stop-opacity=".4"/><stop offset="1" stop-color="#090e1c" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1c2944" stroke-width=".6"/></pattern>
+<style>@keyframes pulse{0%,100%{opacity:.35}50%{opacity:1}} @keyframes orbit{to{transform:rotate(360deg)}} @keyframes flow{to{stroke-dashoffset:-120}} .pulse{animation:pulse 4s ease-in-out infinite} .flow{stroke-dasharray:6 12;animation:flow 8s linear infinite} .orbit{transform-origin:950px 185px;animation:orbit 40s linear infinite} @media(prefers-reduced-motion:reduce){.pulse,.flow,.orbit{animation:none}}</style>
+</defs>
+<rect x="1" y="1" width="173" height="46" rx="22" fill="#090e1c" stroke="#293650"/>
+<rect x="1" y="1" width="173" height="46" rx="10" fill="#10192c" stroke="#c4f17b"/><text x="87.5" y="30" fill="#c4f17b" font-size="15" font-weight="600" text-anchor="middle" font-family="Consolas,Menlo,monospace">GoalCoach ↗</text></svg>

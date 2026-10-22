@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="assets/hero-f2ee30849a.svg" width="100%" alt="Weijia Han — Applied AI and agentic systems, product thinking and working software" />
+<img src="assets/hero-4972444cc1.svg" width="100%" alt="wehan — Applied AI and agentic systems, product thinking and working software" />
 
 <p>
   <a href="mailto:hanweijia.ann@outlook.com"><img src="assets/email-95efa4c702.svg" height="40" alt="Email hanweijia.ann@outlook.com" /></a>
@@ -192,13 +192,12 @@ Private repository links require access; their inclusion does not grant source a
 
 ## The person behind the code
 
-<img src="assets/journey-8cde2f148b.svg" width="100%" alt="Career journey from UNOV/UNODC, BIGO and Huawei to 42 Heilbronn, TUM and LEVEL3 AI Engineering" />
+<img src="assets/journey-201af2fe93.svg" width="100%" alt="Career journey from UNOV/UNODC, BIGO and Huawei to 42 Heilbronn and LEVEL3 AI Engineering" />
 
 <details>
 <summary><strong>Education, international experience & languages</strong></summary>
 
 - **42 Heilbronn:** Software Engineering & Applied AI, Rank 5.
-- **Technical University of Munich:** B.Sc. Management and Data Science, currently on a semester of leave.
 - **LEVEL3 AI Engineering:** Completed the team programme and led the GoalCoach MVP development and demonstration.
 - **Background:** M.A. Interpreting and B.A. Translation.
 

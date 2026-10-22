@@ -196,15 +196,15 @@ class ProfileRenderer:
         (self.assets / filename).write_text(content, encoding="utf-8")
 
     def hero(self) -> None:
-        s = Svg(1200, 390, "Weijia Han | Applied AI and agentic systems | Heilbronn, Germany")
+        s = Svg(1200, 390, "wehan | Applied AI and agentic systems | Heilbronn, Germany")
         s.add('<rect x="1" y="1" width="1198" height="388" rx="22" fill="url(#grid)"/>')
         s.add('<ellipse cx="950" cy="180" rx="330" ry="250" fill="url(#halo)"/>')
         s.text(45, 45, "PSYCHE0920  /  BUILDER PROFILE", 15, CYAN, mono=True)
-        s.text(43, 144, "WEIJIA HAN", 85, INK, 800)
+        s.text(43, 144, "wehan", 64, INK, 800)
         s.text(47, 194, "APPLIED AI & AGENTIC SYSTEMS", 26, CYAN, 600)
         s.text(47, 230, "Product thinking. Working software. Real-world problems.", 20, MUTED)
         s.line(47, 263, 710, 263)
-        for x, label, color in ((47, "42 HEILBRONN", CYAN), (258, "LEVEL3 AI", PURPLE), (469, "TUM · M&DS", LIME)):
+        for x, label, color in ((47, "42 HEILBRONN", CYAN), (258, "LEVEL3 AI", PURPLE)):
             s.rect(x, 286, 188, 37, "#10192c", "#2a3854", 8)
             s.text(x+94, 310, label, 14, color, 600, "middle", True)
         s.text(47, 362, "HEILBRONN, DE  //  PYTHON · C · LLM SYSTEMS", 14, MUTED, mono=True)
@@ -309,7 +309,7 @@ class ProfileRenderer:
     def journey(self) -> None:
         s=Svg(1200,224,"Career journey: UNOV UNODC, BIGO, Huawei, 42 Heilbronn, LEVEL3 AI Engineering")
         s.text(34,43,"04 / FROM PEOPLE & PRODUCTS TO APPLIED AI",20,PURPLE,600,mono=True)
-        milestones=(("2021–22","UNOV / UNODC","Multilingual policy tools"),("2022–23","BIGO LIVE","200+ team / 20+ countries"),("2023","HUAWEI","Digital services delivery"),("2025–NOW","42 + TUM","Software / data science"),("2026","LEVEL3 AI","GoalCoach MVP delivery"))
+        milestones=(("2021–22","UNOV / UNODC","Multilingual policy tools"),("2022–23","BIGO LIVE","200+ team / 20+ countries"),("2023","HUAWEI","Digital services delivery"),("2025–NOW","42 HEILBRONN","Software engineering"),("2026","LEVEL3 AI","GoalCoach MVP delivery"))
         s.line(54,107,1119,107,CYAN)
         for i,(year,name,caption) in enumerate(milestones):
             x=54+i*228

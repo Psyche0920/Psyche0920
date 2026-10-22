@@ -197,7 +197,7 @@ class ProfileRenderer:
         s.text(47, 194, "APPLIED AI & AGENTIC SYSTEMS", 26, CYAN, 600)
         s.text(47, 230, "Product thinking. Working software. Real-world problems.", 20, MUTED)
         s.line(47, 263, 710, 263)
-        for x, label, color in ((47, "42 HEILBRONN", CYAN), (258, "LEVEL3 AI", PURPLE), (440, "TUM · M&DS", LIME)):
+        for x, label, color in ((47, "42 HEILBRONN", CYAN), (258, "LEVEL3 AI", PURPLE), (469, "TUM · M&DS", LIME)):
             s.rect(x, 286, 188, 37, "#10192c", "#2a3854", 8)
             s.text(x+94, 310, label, 14, color, 600, "middle", True)
         s.text(47, 362, "HEILBRONN, DE  //  PYTHON · C · LLM SYSTEMS", 14, MUTED, mono=True)
@@ -246,7 +246,7 @@ class ProfileRenderer:
         values=[point(i, radius*len(f.projects)/8) for i,f in enumerate(FOCUSES)]
         s.add('<polygon points="'+' '.join(f'{x:.2f},{y:.2f}' for x,y in values)+f'" fill="{CYAN}" fill-opacity=".16" stroke="{CYAN}" stroke-width="3"/>')
         for x,y in values: s.add(f'<circle class="pulse" cx="{x}" cy="{y}" r="5" fill="{LIME}"/>')
-        s.text(34, 486, "Scale 0–8 projects / categories overlap / not proficiency", 13, MUTED)
+        s.text(34, 510, "Scale 0–8 projects / categories overlap / not proficiency", 13, MUTED)
         languages=Counter(r.language for r in self.snapshot.repositories if r.language and r.name!="Psyche0920")
         total=sum(languages.values())
         colors=(CYAN,PURPLE,LIME,"#ffb884","#f18dbb")

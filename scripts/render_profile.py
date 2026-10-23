@@ -173,11 +173,11 @@ class ProjectCard:
 
 PROJECTS = (
     ProjectCard("goalcoach", "01", "GoalCoach", "ADAPTIVE LEARNING / TEAM LEAD", ("From a learner goal to a persistent,", "adaptive plan-teach-assess loop."), "PYTHON / PYDANTICAI / FASTAPI / SQLITE", "MVP DEMONSTRATED", CYAN, "loop"),
-    ProjectCard("rag", "02", "RAG against the Machine", "RETRIEVAL / LOCAL LLM", ("Codebase question answering with", "BM25 retrieval and local Qwen inference."), "PYTHON / AST / BM25 / QWEN", "IMPLEMENTED & EVALUATED", PURPLE, "search"),
-    ProjectCard("tools", "03", "Call Me Maybe", "FUNCTION CALLING / STRUCTURED OUTPUT", ("Natural language to validated function", "calls through constrained decoding."), "PYTHON / LLM LOGITS / PYDANTIC", "IMPLEMENTED & TESTED", LIME, "braces"),
-    ProjectCard("pastport", "04", "PastPort", "HERITAGE / FRAMEWORK & TEAM LEAD", ("Traceable research, interactive stories", "and a shared workflow framework."), "PYTHON / LANGGRAPH / JAVASCRIPT", "IN DEVELOPMENT / PRIVATE SOURCE", CYAN, "diamond"),
-    ProjectCard("neckarus", "05", "Neckarus", "CITY ASSISTANT / PRODUCT & WORKFLOW", ("Environmental data, nearby facilities", "and a location-aware voice assistant."), "PYTHON / FASTAPI / AZURE SPEECH", "PROTOTYPE / PRIVATE SOURCE", PURPLE, "pin"),
-    ProjectCard("pacman", "06", "Pac-Man", "TEAM PROJECT / MODULAR GAME", ("Procedural mazes, ghost behaviour,", "persistent scores and arcade gameplay."), "PYTHON / PYGAME / ALGORITHMS", "COMPLETED / PLAYABLE RELEASE", LIME, "pacman"),
+    ProjectCard("pastport", "02", "PastPort", "HERITAGE / FRAMEWORK & TEAM LEAD", ("Traceable research, interactive stories", "and a shared workflow framework."), "PYTHON / LANGGRAPH / JAVASCRIPT", "IN DEVELOPMENT / PRIVATE SOURCE", CYAN, "diamond"),
+    ProjectCard("neckarus", "03", "Neckarus", "CITY ASSISTANT / PRODUCT & WORKFLOW", ("Environmental data, nearby facilities", "and a location-aware voice assistant."), "PYTHON / FASTAPI / AZURE SPEECH", "PROTOTYPE / PRIVATE SOURCE", PURPLE, "pin"),
+    ProjectCard("pacman", "04", "Pac-Man", "TEAM PROJECT / MODULAR GAME", ("Procedural mazes, ghost behaviour,", "persistent scores and arcade gameplay."), "PYTHON / PYGAME / ALGORITHMS", "COMPLETED / PLAYABLE RELEASE", LIME, "pacman"),
+    ProjectCard("rag", "05", "RAG against the Machine", "RETRIEVAL / LOCAL LLM", ("Codebase question answering with", "BM25 retrieval and local Qwen inference."), "PYTHON / AST / BM25 / QWEN", "IMPLEMENTED & EVALUATED", PURPLE, "search"),
+    ProjectCard("tools", "06", "Call Me Maybe", "FUNCTION CALLING / STRUCTURED OUTPUT", ("Natural language to validated function", "calls through constrained decoding."), "PYTHON / LLM LOGITS / PYDANTIC", "IMPLEMENTED & TESTED", LIME, "braces"),
 )
 
 

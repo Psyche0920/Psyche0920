@@ -81,28 +81,28 @@ The language chart counts each public source repository once using GitHub's prim
 <p align="center"><a href="https://goalcoach.ai.studio/"><strong>Website & demo entry ↗</strong></a> · <a href="https://github.com/Psyche0920/GoalCoach">Source</a> · <a href="https://github.com/Psyche0920/GoalCoach/tree/JEV">JEV experiments</a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/Psyche0920/RAG-against-the-machine"><img src="assets/project-rag-945251740d.svg" width="100%" alt="RAG against the Machine: codebase question answering, BM25 retrieval, local Qwen, evaluation" /></a>
-<p align="center"><a href="https://github.com/Psyche0920/RAG-against-the-machine"><strong>Source & evaluation ↗</strong></a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/Psyche0920/Python_callmemaybe"><img src="assets/project-tools-18ce3ad21a.svg" width="100%" alt="Call Me Maybe: constrained decoding, schema-aware arguments, validated function calls" /></a>
-<p align="center"><a href="https://github.com/Psyche0920/Python_callmemaybe"><strong>Source ↗</strong></a></p>
-</td>
-<td width="50%" valign="top">
-<a href="https://github.com/Psyche0920/PastPort"><img src="assets/project-pastport-edb3541f59.svg" width="100%" alt="PastPort: heritage narrative platform; framework and team lead; in development; private source" /></a>
+<a href="https://github.com/Psyche0920/PastPort"><img src="assets/project-pastport-fc3cd4a937.svg" width="100%" alt="PastPort: heritage narrative platform; framework and team lead; in development; private source" /></a>
 <p align="center"><a href="https://github.com/Psyche0920/PastPort"><strong>Project (private) ↗</strong></a> · <a href="https://github.com/Psyche0920/PastPort-VR-Studio">VR Studio (private)</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-<a href="https://github.com/Psyche0920/Neckarus"><img src="assets/project-neckarus-44eed71616.svg" width="100%" alt="Neckarus: environmental data, nearby facilities and voice interaction; prototype; private source" /></a>
+<a href="https://github.com/Psyche0920/Neckarus"><img src="assets/project-neckarus-4fd94bccd9.svg" width="100%" alt="Neckarus: environmental data, nearby facilities and voice interaction; prototype; private source" /></a>
 <p align="center"><a href="https://github.com/Psyche0920/Neckarus"><strong>Project (private) ↗</strong></a></p>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/kapustazh/pacman"><img src="assets/project-pacman-7e8206be39.svg" width="100%" alt="Pac-Man: collaborative modular Python game, procedural mazes and ghost behaviour; playable release" /></a>
+<a href="https://github.com/kapustazh/pacman"><img src="assets/project-pacman-e460e52a4b.svg" width="100%" alt="Pac-Man: collaborative modular Python game, procedural mazes and ghost behaviour; playable release" /></a>
 <p align="center"><a href="https://kapustazh.itch.io/pac-man"><strong>Game page ↗</strong></a> · <a href="https://github.com/kapustazh/pacman">Team source</a></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/Psyche0920/RAG-against-the-machine"><img src="assets/project-rag-5fc659c069.svg" width="100%" alt="RAG against the Machine: codebase question answering, BM25 retrieval, local Qwen, evaluation" /></a>
+<p align="center"><a href="https://github.com/Psyche0920/RAG-against-the-machine"><strong>Source & evaluation ↗</strong></a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/Psyche0920/Python_callmemaybe"><img src="assets/project-tools-95377dbcbb.svg" width="100%" alt="Call Me Maybe: constrained decoding, schema-aware arguments, validated function calls" /></a>
+<p align="center"><a href="https://github.com/Psyche0920/Python_callmemaybe"><strong>Source ↗</strong></a></p>
 </td>
 </tr>
 </table>
@@ -122,20 +122,6 @@ An adaptive Chinese-learning coach that turns learner goals into study plans and
 
 **Stack:** Python · PydanticAI · FastAPI · LLM APIs · SQLite  
 **Status:** MVP demonstrated; JEV experimentation ongoing.
-
-### RAG against the Machine | Codebase question answering
-
-A retrieval-augmented generation pipeline over the vLLM codebase and documentation, connecting code-aware chunking, BM25 retrieval, local Qwen generation, and retrieval evaluation.
-
-**Focus:** Grounded answers, structured outputs, and measurable retrieval quality.  
-**Stack:** Python · AST-based chunking · BM25 · Qwen · Pydantic
-
-### Call Me Maybe | LLM function calling
-
-Converts natural-language requests into structured JSON function calls using logits-based function selection, schema-aware parameter extraction, constrained decoding, and JSON/Pydantic validation.
-
-**Focus:** Connecting model output to explicit, validated function contracts.  
-**Stack:** Python · LLM inference · Constrained decoding · Pydantic
 
 ### PastPort | Interactive heritage experiences
 
@@ -168,6 +154,20 @@ A team project combining environmental data, nearby facilities, and voice intera
 A Pygame recreation featuring procedural mazes, player controls, ghost behaviour, collision handling, scoring, and persistent high scores, organised into reusable game-state, entity, maze, and configuration modules.
 
 **Status:** Completed; team repository and game release linked above.
+
+### RAG against the Machine | Codebase question answering
+
+A retrieval-augmented generation pipeline over the vLLM codebase and documentation, connecting code-aware chunking, BM25 retrieval, local Qwen generation, and retrieval evaluation.
+
+**Focus:** Grounded answers, structured outputs, and measurable retrieval quality.  
+**Stack:** Python · AST-based chunking · BM25 · Qwen · Pydantic
+
+### Call Me Maybe | LLM function calling
+
+Converts natural-language requests into structured JSON function calls using logits-based function selection, schema-aware parameter extraction, constrained decoding, and JSON/Pydantic validation.
+
+**Focus:** Connecting model output to explicit, validated function contracts.  
+**Stack:** Python · LLM inference · Constrained decoding · Pydantic
 
 </details>
 

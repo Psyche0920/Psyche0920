@@ -4,7 +4,7 @@ This profile uses original repository-owned SVGs, CSS-only animation, and ordina
 
 ## Design reference
 
-The visual hierarchy draws inspiration from [DenverCoder1's profile](https://github.com/DenverCoder1): a strong graphic introduction, contact buttons, grouped projects, and visible statistics. The SVG artwork and renderer here were created for Weijia Han, rather than copied from that profile. Additional references: [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme).
+The visual hierarchy draws inspiration from [DenverCoder1's profile](https://github.com/DenverCoder1): a strong graphic introduction, contact buttons, grouped projects, and visible statistics. The SVG artwork and renderer here were created for wehan, rather than copied from that profile. Additional references: [Awesome GitHub Profile README](https://github.com/abhisheknaiidu/awesome-github-profile-readme).
 
 ## Data boundaries
 
@@ -14,7 +14,9 @@ The visual hierarchy draws inspiration from [DenverCoder1's profile](https://git
 - The radar counts explicitly mapped projects. One project can demonstrate more than one focus area. It is not a claim about skill proficiency, percentile, employment seniority, or certification.
 - The language donut counts public repositories by primary detected language, rather than lines of code. Repositories without a detected language are omitted; the profile repository is excluded.
 - The achievement showcase uses only badges actually observed on the account. The badges link to GitHub's original achievement records. GitHub Pro is a subscription highlight, not an earned achievement.
-- Existing private project descriptions were retained from the approved portfolio. Their repositories remain private. They are not included in public API counts.
+- Featured projects are selected for a demonstrated result, playable release, deployed demo, or documented implementation and evaluation. Private and unfinished prototypes are excluded from the showcase. Public status was checked against GitHub on 2026-11-11.
+- Project badges describe technologies and demonstrated milestones; they are not fabricated CI results or certifications. To-Do uses a shared public demo without authentication.
+- PastPort has public source and a playable demo; this does not claim that all historical content has received expert approval.
 - Project milestones such as LEVEL3 and the hackathon finalist role are professional/project context, not GitHub achievements.
 - User email links use `mailto:hanweijia.ann@outlook.com`, which opens a configured email application. A plain email address is also visible for copying.
 

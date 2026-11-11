@@ -62,12 +62,12 @@ class Focus:
 
 
 FOCUSES = (
-    Focus("Agentic AI", ("GoalCoach", "Neckarus", "PastPort")),
-    Focus("Backend & state", ("GoalCoach", "Neckarus", "PastPort")),
+    Focus("AI workflows", ("GoalCoach", "PastPort")),
+    Focus("Backend & state", ("GoalCoach", "PastPort", "To-Do")),
     Focus("RAG & tool calling", ("RAG-against-the-machine", "Python_callmemaybe")),
     Focus("Algorithms & games", ("push_swap", "python_amazing", "Python-fly_in", "pacman")),
-    Focus("Systems & C", ("libft", "ft_printf", "get_next_line", "c_codexion", "born2beroot", "Inception")),
-    Focus("Product delivery", ("GoalCoach", "PastPort", "Neckarus")),
+    Focus("Systems & C", ("libft", "ft_printf", "get_next_line", "c_codexion", "born2beroot")),
+    Focus("Product delivery", ("GoalCoach", "PastPort", "To-Do")),
 )
 
 
@@ -173,8 +173,8 @@ class ProjectCard:
 
 PROJECTS = (
     ProjectCard("goalcoach", "01", "GoalCoach", "ADAPTIVE LEARNING / TEAM LEAD", ("From a learner goal to a persistent,", "adaptive plan-teach-assess loop."), "PYTHON / PYDANTICAI / FASTAPI / SQLITE", "MVP DEMONSTRATED", CYAN, "loop"),
-    ProjectCard("pastport", "02", "PastPort", "HERITAGE / FRAMEWORK & TEAM LEAD", ("Traceable research, interactive stories", "and a shared workflow framework."), "PYTHON / LANGGRAPH / JAVASCRIPT", "IN DEVELOPMENT / PRIVATE SOURCE", CYAN, "diamond"),
-    ProjectCard("neckarus", "03", "Neckarus", "CITY ASSISTANT / PRODUCT & WORKFLOW", ("Environmental data, nearby facilities", "and a location-aware voice assistant."), "PYTHON / FASTAPI / AZURE SPEECH", "PROTOTYPE / PRIVATE SOURCE", PURPLE, "pin"),
+    ProjectCard("pastport", "02", "PastPort", "HERITAGE / FRAMEWORK & TEAM LEAD", ("Turn history into play through 3D", "exploration, clues and choices."), "PYTHON / LANGGRAPH / JAVASCRIPT", "PLAYABLE DEMO / PUBLIC SOURCE", CYAN, "diamond"),
+    ProjectCard("todo", "03", "To-Do", "FULL-STACK / WEB APPLICATION", ("A focused task manager with inline", "editing and persistent task storage."), "GO / NUXT / TYPESCRIPT / POSTGRESQL", "DEPLOYED DEMO / PUBLIC SOURCE", PURPLE, "braces"),
     ProjectCard("pacman", "04", "Pac-Man", "TEAM PROJECT / MODULAR GAME", ("Procedural mazes, ghost behaviour,", "persistent scores and arcade gameplay."), "PYTHON / PYGAME / ALGORITHMS", "COMPLETED / PLAYABLE RELEASE", LIME, "pacman"),
     ProjectCard("rag", "05", "RAG against the Machine", "RETRIEVAL / LOCAL LLM", ("Codebase question answering with", "BM25 retrieval and local Qwen inference."), "PYTHON / AST / BM25 / QWEN", "IMPLEMENTED & EVALUATED", PURPLE, "search"),
     ProjectCard("tools", "06", "Call Me Maybe", "FUNCTION CALLING / STRUCTURED OUTPUT", ("Natural language to validated function", "calls through constrained decoding."), "PYTHON / LLM LOGITS / PYDANTIC", "IMPLEMENTED & TESTED", LIME, "braces"),
@@ -207,7 +207,7 @@ class ProfileRenderer:
         for x, label, color in ((47, "42 HEILBRONN", CYAN), (258, "LEVEL3 AI", PURPLE)):
             s.rect(x, 286, 188, 37, "#10192c", "#2a3854", 8)
             s.text(x+94, 310, label, 14, color, 600, "middle", True)
-        s.text(47, 362, "HEILBRONN, DE  //  PYTHON · C · LLM SYSTEMS", 14, MUTED, mono=True)
+        s.text(47, 362, "HEILBRONN, DE  //  PYTHON · GO · C · AI & WEB", 14, MUTED, mono=True)
         s.add(f'<g class="orbit"><circle cx="950" cy="185" r="126" fill="none" stroke="{PURPLE}" stroke-opacity=".5" stroke-dasharray="4 12"/><ellipse cx="950" cy="185" rx="149" ry="61" transform="rotate(40 950 185)" fill="none" stroke="{CYAN}" stroke-opacity=".5"/><circle cx="1076" cy="185" r="5" fill="{LIME}"/></g>')
         points = ((950,83),(1039,134),(1039,236),(950,287),(861,236),(861,134),(950,185))
         for i, (x,y) in enumerate(points):
@@ -267,9 +267,10 @@ class ProfileRenderer:
         s.text(900,252,str(total),53,INK,700,"middle")
         s.text(900,281,"SOURCE REPOS",13,MUTED,400,"middle",True)
         for i,((language,count),color) in enumerate(zip(languages.most_common(),colors,strict=False)):
-            x=757+i*174
-            s.add(f'<circle cx="{x}" cy="419" r="5" fill="{color}"/>')
-            s.text(x+16,425,f"{language}  {count}/{total}",17,INK,600)
+            x=708+(i%2)*230
+            y=412+(i//2)*28
+            s.add(f'<circle cx="{x}" cy="{y-6}" r="5" fill="{color}"/>')
+            s.text(x+16,y,f"{language}  {count}/{total}",17,INK,600)
         s.text(646,486,"Repository count; not code volume or professional mastery",13,MUTED)
         s.text(646,510,f"Source: GitHub REST API · {self.snapshot.captured}",12,MUTED)
         self.save("radar-languages",s)
@@ -320,9 +321,9 @@ class ProfileRenderer:
         self.save("journey",s)
 
     def stack(self) -> None:
-        s=Svg(1200,203,"Working toolkit: Python, C, FastAPI, PydanticAI, LangGraph, SQLite, Git, Linux, pytest and Jira")
+        s=Svg(1200,203,"Working toolkit: Python, Go, FastAPI, PydanticAI, Nuxt, PostgreSQL, Git, Linux, pytest and TypeScript")
         s.text(34,42,"TOOLKIT / FROM LOW-LEVEL SYSTEMS TO AGENTIC PRODUCTS",18,CYAN,600,mono=True)
-        tools=(("Py","Python",CYAN),("C","C",PURPLE),("API","FastAPI",LIME),("AI","PydanticAI",CYAN),("LG","LangGraph",PURPLE),("DB","SQLite",LIME),("G","Git",CYAN),("$","Linux",PURPLE),("✓","pytest",LIME),("J","Jira",CYAN))
+        tools=(("Py","Python",CYAN),("Go","Go",PURPLE),("API","FastAPI",LIME),("AI","PydanticAI",CYAN),("Vue","Nuxt / Vue",PURPLE),("DB","PostgreSQL",LIME),("G","Git",CYAN),("$","Linux",PURPLE),("✓","pytest",LIME),("TS","TypeScript",CYAN))
         for i,(icon,label,color) in enumerate(tools):
             x,y=34+(i%5)*231,64+(i//5)*62
             s.rect(x,y,210,48,PANEL,"#25344e",10)

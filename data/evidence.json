@@ -1,30 +1,29 @@
 {
-  "captured": "2026-10-22",
+  "captured": "2026-11-11",
   "sources": [
     "https://api.github.com/users/Psyche0920",
     "https://api.github.com/users/Psyche0920/repos",
     "https://github.com/users/Psyche0920/contributions"
   ],
-  "public_repositories": 13,
-  "yearly_contributions": 255,
-  "followers": 10,
+  "public_repositories": 15,
+  "yearly_contributions": 388,
+  "followers": 12,
   "radar_unit": "number of linked projects, not a skill score",
   "radar": [
     {
-      "label": "Agentic AI",
+      "label": "AI workflows",
       "projects": [
         "GoalCoach",
-        "Neckarus",
         "PastPort"
       ],
-      "count": 3
+      "count": 2
     },
     {
       "label": "Backend & state",
       "projects": [
         "GoalCoach",
-        "Neckarus",
-        "PastPort"
+        "PastPort",
+        "To-Do"
       ],
       "count": 3
     },
@@ -53,17 +52,16 @@
         "ft_printf",
         "get_next_line",
         "c_codexion",
-        "born2beroot",
-        "Inception"
+        "born2beroot"
       ],
-      "count": 6
+      "count": 5
     },
     {
       "label": "Product delivery",
       "projects": [
         "GoalCoach",
         "PastPort",
-        "Neckarus"
+        "To-Do"
       ],
       "count": 3
     }
